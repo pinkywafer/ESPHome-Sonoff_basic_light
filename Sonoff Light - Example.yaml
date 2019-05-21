@@ -1,0 +1,6 @@
+substitutions:
+  devicename: example_light_sonoff
+  friendly_name: Example Light
+  ip_address: 192.168.1.21
+
+<<: !include sonoff_basic_light.yaml
